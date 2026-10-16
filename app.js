@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello! Node.js Docker Jenkins CI/CD is Working!');
+    res.end('Hello! Automatic Jenkins CI/CD is Working!');
 });
 
 server.listen(3000, '0.0.0.0', () => {
